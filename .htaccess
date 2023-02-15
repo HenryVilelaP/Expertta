@@ -1,0 +1,17 @@
+Options -MultiViews
+ErrorDocument 403 "Acceso denegado"
+ErrorDocument 404 "/noencontrada.php"
+ErrorDocument 500 "/noencontrada.php"
+
+#RewriteEngine on
+#RewriteRule /
+
+#RewriteCond %{HTTPS_HOST} !^extranet.expertta.es/login.php$ #[OR]
+#RewriteCond %{HTTP_HOST} ^domain.com$
+#RewriteRule ^(.*)$ https://extranet.expertta.es/ [L,R=301]
+
+
+
+
+
+
